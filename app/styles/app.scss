@@ -1,0 +1,15 @@
+@import "base/variables";
+@import "components/nav";
+
+$space-large: 2.5rem;
+$title-color: #556;
+
+p {
+  color: #777;
+}
+
+.page-title {
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom:$space-large;
+}
