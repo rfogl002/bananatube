@@ -7,9 +7,8 @@ var Main = (props) => {
     <div>
       <Nav />
       <div className='row'>
-        <div className='columns small-10 medium-10 large-10 small-centered'>
-          <h1 className='page-title'>React Boilerplate App</h1>
-          <p>Main.jsx rendered!</p>
+        <div className='columns medium-6 large-4 small-centered'>
+          <h1 className='page-title'>React Timer App</h1>
           {props.children}
         </div>
       </div>
