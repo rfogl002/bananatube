@@ -6,6 +6,14 @@ var Controls = React.createClass({
     onStatusChange: React.PropTypes.func.isRequired
   },
 
+  /*getInitialState: function() {
+    return {
+      count: 0,
+      countdownStatus: 'stopped'
+    };
+  },
+  ????? */
+
   onStatusChange: function (newStatus) {
 
     return () => {
