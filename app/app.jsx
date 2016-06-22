@@ -9,7 +9,7 @@ import Timer from 'Timer';
 import Countdown from 'Countdown';
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css');
+
 $(document).foundation();
 
 // Add app.css
