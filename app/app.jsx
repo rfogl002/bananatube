@@ -13,6 +13,6 @@ $(document).foundation();
 require('style!css!sass!ApplicationStyles');
 
 ReactDOM.render(
-  <p>React Boilerplate 3 Project</p>
+  <p>React Boilerplate 3 Project</p>,
   document.getElementById('app')
 );
